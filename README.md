@@ -14,13 +14,3 @@ This project is a simple Python program that calculates an employee’s weekly g
   - Final amount paid after taxes
 - Displays a full payroll breakdown
 
-# Example Calculation
-The program uses:
-- **Federal tax rate:** 20%
-- **State tax rate:** 9%
-
-```python
-gross_pay = hours * pay_rate
-federal_tax = gross_pay * 0.20
-state_tax = gross_pay * 0.09
-net_pay = gross_pay - federal_tax - state_tax
